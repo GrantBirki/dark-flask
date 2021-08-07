@@ -26,5 +26,6 @@ function updateStatus(state, status) {
     css_state = 'error-lower';
   }
 
+  document.getElementById("main-status").textContent=capitalize(state);
   document.getElementById("main-status").className = css_state + " info-lower info-upper";
 }
