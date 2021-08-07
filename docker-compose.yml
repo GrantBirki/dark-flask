@@ -7,7 +7,7 @@ services:
       - '80:5000'
     # env_file: creds.env
     healthcheck:
-      test: ["CMD-SHELL", "curl --silent --fail localhost/health-check || exit 1"]
+      test: ["CMD-SHELL", "curl --silent --fail localhost:5000/health-check || exit 1"]
       interval: 10s
       timeout: 10s
       retries: 3
