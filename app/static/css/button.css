@@ -5,20 +5,6 @@
 .dark-button-2 {
 	transform: translateX(0%) translateY(0%);
 }
-@media only screen and (max-width: 1024px) {
-	.dark-button-1 {
-		display: block;
-		margin-top: 10%;
-		margin-left: auto;
-    	margin-right: auto;
-	}
-	.dark-button-2 {
-		display: block;
-		margin-top: 7%;
-		margin-left: auto;
-    	margin-right: auto;
-	}
-}
 .dark-button {
 	background: #333;
 	color: #ccc;
@@ -77,4 +63,28 @@
 	transform: translateX(300px) skewX(-15deg);
 	opacity: 1;
 	transition: 0.7s;
+}
+
+/* All media screens below */
+
+@media only screen and (max-width: 1024px) {
+	.dark-button-1 {
+		display: block;
+		margin-top: 10%;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	.dark-button-2 {
+		display: block;
+		margin-top: 7%;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	.dark-button {
+		width: 400px;
+		height: 120px;
+	}
+	.button-text {
+		font-size: 1.8em;
+	}
 }

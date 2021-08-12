@@ -26,7 +26,7 @@
     text-align: center;
     align-content: center;
     width: 100%;
-    padding-top: 20%;
+    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,4 +46,30 @@
     color: #ccc;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+/* All media screens below */
+
+@media only screen and (max-width: 1024px) {
+	.dark-button-1 {
+		display: block;
+		margin-top: 10%;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	.dark-button-2 {
+		display: block;
+		margin-top: 7%;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+    .box-main {
+        width: 80%;   
+    }
+    .rounded-box {
+        width: 80%;
+    }
+    p {
+        font-size: large;
+    }
 }
